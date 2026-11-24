@@ -1,7 +1,1 @@
-MISE A JOUR DU SITE NAH RANAIVO
-
-1. Décompressez ce ZIP.
-2. Dans GitHub, ouvrez le fichier index.html du dépôt et remplacez son contenu par celui du nouveau index.html.
-3. Conservez le dossier images déjà présent dans votre dépôt : ne le supprimez pas.
-4. Les nouvelles galeries utilisent les fichiers images/C1.jpg à images/C10.jpg, images/Starex.jpg, images/4×4.jpg et images/Tuctuc.jpg.
-5. Le formulaire, le choix d'un seul axe à la fois et les excursions associées sont conservés.
+Remplacez uniquement le fichier index.html à la racine du dépôt GitHub. Ne supprimez pas et ne remplacez pas le dossier images : il contient vos photos déjà mises en ligne.
