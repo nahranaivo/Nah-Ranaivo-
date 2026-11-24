@@ -38,7 +38,7 @@ footer{background:#064e54;color:#eafffc;padding:35px 24px;text-align:center;font
 .choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.axis-options{display:grid;gap:9px;padding-top:8px}.axis-options>strong{font-size:13px;color:var(--deep)}
 .choice-grid label{display:flex;align-items:flex-start;gap:7px;font-size:13px;line-height:1.35}
 .choice-grid input{width:auto;margin:2px 0 0;accent-color:var(--teal)}
-.axis-choice-grid label{align-items:center;padding:11px 12px;border:1px solid #cfe4df;border-radius:10px;background:#f5fbfa;font-weight:bold;color:var(--deep)}.axis-hint{font-size:12px;line-height:1.5;color:var(--muted);margin:4px 0 0}
+.axis-choice-grid label{align-items:flex-start;padding:12px;border:1px solid #cfe4df;border-radius:10px;background:#f5fbfa;font-weight:bold;color:var(--deep)}.axis-choice-grid label span{display:grid;gap:5px}.axis-choice-grid label b{font-size:14px}.axis-choice-grid label small{font-size:12px;font-weight:normal;line-height:1.45;color:var(--muted)}.axis-hint{font-size:12px;line-height:1.5;color:var(--muted);margin:4px 0 0}.axis-intro{margin:0 0 5px}
 .form-group [hidden]{display:none!important}
 @media(max-width:520px){.choice-grid{grid-template-columns:1fr}}
 </style>
@@ -143,14 +143,15 @@ footer{background:#064e54;color:#eafffc;padding:35px 24px;text-align:center;font
 <form class="form" id="bookingForm">
 <input id="name" required placeholder="Nom et prénom" data-ph="name">
 <div class="form-group"><strong>Choisissez un ou plusieurs axes</strong>
+<p class="axis-hint axis-intro">Sélectionnez un ou plusieurs axes pour composer votre circuit. Toutes les visites indiquées sous chaque axe seront automatiquement incluses dans votre programme.</p>
 <div class="choice-grid axis-choice-grid">
-<label><input type="checkbox" name="axis" value="Axe Nord"> Axe Nord</label>
-<label><input type="checkbox" name="axis" value="Axe Sud"> Axe Sud</label>
-<label><input type="checkbox" name="axis" value="Axe Sud-Est"> Axe Sud-Est</label>
-<label><input type="checkbox" name="axis" value="Axe Est"> Axe Est</label>
-<label><input type="checkbox" name="axis" value="Axe Centre"> Axe Centre</label>
-<label><input type="checkbox" name="axis" value="Plage privée"> Plage privée</label>
-</div><p class="axis-hint">Les visites correspondant à chaque axe sont incluses automatiquement dans votre programme.</p></div>
+<label><input type="checkbox" name="axis" value="Axe Nord"><span><b>Axe Nord</b><small>Cascade d’Ankirihiry · Port Loukintsy · Piscine naturelle</small></span></label>
+<label><input type="checkbox" name="axis" value="Axe Sud"><span><b>Axe Sud</b><small>Île aux Nattes · Maison Blanche</small></span></label>
+<label><input type="checkbox" name="axis" value="Axe Sud-Est"><span><b>Axe Sud-Est</b><small>Îlots de sable · Tour de l’Île aux Nattes</small></span></label>
+<label><input type="checkbox" name="axis" value="Axe Est"><span><b>Axe Est</b><small>Baie d’Ampanihy · Canal de mangrove · Forêt d’Ampanihy · Plage de l’Est</small></span></label>
+<label><input type="checkbox" name="axis" value="Axe Centre"><span><b>Axe Centre</b><small>1ère église · Cimetière des Pirates · Île aux Forbans · Île au Madame · Tour de ville</small></span></label>
+<label><input type="checkbox" name="axis" value="Plage privée"><span><b>Plage privée</b><small>Snorkeling · Kayak · Plage</small></span></label>
+</div><p class="axis-hint">Vous pouvez cocher plusieurs axes. Les visites de tous les axes sélectionnés seront regroupées dans votre demande WhatsApp.</p></div>
 <div class="form-group"><strong>Dates du séjour</strong><label for="arrival">Date d’arrivée</label><input id="arrival" type="date" required><label for="departure">Date de départ</label><input id="departure" type="date" required></div>
 <input id="hotel" required placeholder="Nom de l’hôtel / hébergement">
 <div class="form-group"><strong>Transfert à l’arrivée</strong><select id="transfer" required><option value="Non">Non</option><option value="Oui">Oui</option></select>
