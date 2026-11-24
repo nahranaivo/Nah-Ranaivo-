@@ -15,7 +15,7 @@
 <title>Excursions à Sainte-Marie, Madagascar | Nah Ranaivo</title>
 <style>
 :root{--teal:#159b9b;--deep:#075b61;--sand:#f4ead9;--ink:#17383b;--muted:#617879;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fbfdfc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:linear-gradient(180deg,#f1fbfa 0%,#ffffff 38%,#f5fbfa 100%)}
 header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid #e5efed}
 .nav{max-width:1120px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
 .brand{display:flex;align-items:center;gap:10px;font-family:Georgia,serif;font-size:23px;letter-spacing:1px;color:var(--deep);font-weight:bold}.brand img{width:54px;height:54px;object-fit:cover;border-radius:50%;border:2px solid var(--teal)}.brand small{display:block;font:10px Arial;letter-spacing:2px;color:var(--muted);margin-top:3px}
@@ -24,18 +24,18 @@ select,button,.btn{border:0;border-radius:30px;padding:11px 16px;font-weight:bol
 select{background:#eaf6f4;color:var(--deep)}.btn{display:inline-block;text-decoration:none;background:var(--teal);color:white;padding:14px 22px}.btn.outline{background:transparent;border:1px solid white;color:white}
 .hero{min-height:570px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,#063f45d9,#075b6166),url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2000&q=85') center/cover}
 .hero-inner{max-width:1120px;margin:auto;padding:80px 24px;width:100%}.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:12px}.hero h1{font:clamp(42px,7vw,76px) Georgia,serif;max-width:700px;line-height:1.03;margin:18px 0}.hero p{font-size:18px;line-height:1.7;max-width:570px;color:#efffff}
-section{max-width:1120px;margin:auto;padding:76px 24px}.center{text-align:center}.kicker{color:var(--teal);font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase}.section-title{font:clamp(30px,4vw,43px) Georgia,serif;margin:12px 0 16px;color:var(--deep)}.intro{max-width:680px;margin:0 auto;color:var(--muted);line-height:1.7}
+section{max-width:1120px;margin:auto;padding:76px 24px;position:relative}section:nth-of-type(even){background:linear-gradient(135deg,#effaf8,#ffffff);border-radius:28px}.center{text-align:center}.kicker{color:var(--teal);font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase}.section-title{font:clamp(30px,4vw,43px) Georgia,serif;margin:12px 0 16px;color:var(--deep)}.intro{max-width:680px;margin:0 auto;color:var(--muted);line-height:1.7}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 12px 35px #0a55520e;border:1px solid #e7f0ed}.card img{width:100%;height:205px;object-fit:cover}.card-content{padding:21px}.card h3{font:23px Georgia,serif;color:var(--deep);margin:0 0 9px}.card p{font-size:14px;line-height:1.65;color:var(--muted);margin:0}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.split img{width:100%;height:380px;object-fit:cover;border-radius:20px}.vehicle-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.chip{background:#eaf6f4;color:var(--deep);border-radius:30px;padding:10px 15px;font-size:13px;font-weight:bold}
-.gallery{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:12px;margin-top:28px}.gallery img{width:100%;height:190px;object-fit:cover;border-radius:14px}.gallery img:first-child{height:392px;grid-row:span 2}
+.gallery{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:12px;margin-top:28px}.gallery img{width:100%;height:190px;object-fit:cover;border-radius:14px;box-shadow:0 8px 24px #075b6118;transition:transform .25s}.gallery img:hover{transform:translateY(-4px)}.photo-gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:30px}.photo-gallery img{width:100%;height:190px;object-fit:cover;border-radius:16px;box-shadow:0 10px 28px #075b6118}.vehicle-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.vehicle-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 12px 30px #075b6118}.vehicle-card img{width:100%;height:220px;object-fit:cover}.vehicle-card h3{padding:0 18px 16px;margin:12px 0 0;color:var(--deep);font:22px Georgia,serif}.soft-panel{background:linear-gradient(135deg,#dff6f2,#ffffff);border:1px solid #d7efea;border-radius:26px;padding:34px}.gallery img:first-child{height:392px;grid-row:span 2}
 .contact{background:var(--sand);border-radius:24px;padding:38px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.form{display:grid;gap:12px}.form input,.form textarea,.form select{width:100%;padding:14px;border:1px solid #d8e4df;border-radius:10px;background:white;font:14px Arial}.form textarea{min-height:105px;resize:vertical}.form button{background:var(--deep);color:white;padding:15px}
 footer{background:#064e54;color:#eafffc;padding:35px 24px;text-align:center;font-size:13px}footer p{opacity:.8}
-@media(max-width:800px){.brand{font-size:18px}.brand img{width:44px;height:44px}nav{display:none}.cards{grid-template-columns:1fr}.split,.contact-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{height:190px;grid-row:auto}.hero{min-height:520px}}
+@media(max-width:800px){.photo-gallery{grid-template-columns:repeat(2,1fr)}.vehicle-gallery{grid-template-columns:1fr}.brand{font-size:18px}.brand img{width:44px;height:44px}nav{display:none}.cards{grid-template-columns:1fr}.split,.contact-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{height:190px;grid-row:auto}.hero{min-height:520px}}
 
 .form-group{display:grid;gap:8px;padding:12px;border:1px solid #d8e4df;border-radius:12px;background:#ffffffa8}
 .form-group strong{color:var(--deep);font-size:14px}
 .form-group label{font-size:13px;color:var(--ink)}
-.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.axis-options{display:grid;gap:9px;padding-top:8px}.axis-options>strong{font-size:13px;color:var(--deep)}
 .choice-grid label{display:flex;align-items:flex-start;gap:7px;font-size:13px;line-height:1.35}
 .choice-grid input{width:auto;margin:2px 0 0;accent-color:var(--teal)}
 .form-group [hidden]{display:none!important}
@@ -100,6 +100,26 @@ footer{background:#064e54;color:#eafffc;padding:35px 24px;text-align:center;font
   </div>
 </div></section>
 
+<section id="vehicules" class="center">
+  <div class="kicker">Déplacez-vous en toute tranquillité</div>
+  <h2 class="section-title">Nos véhicules</h2>
+  <p class="intro">Choisissez le moyen de transport adapté à votre séjour et à vos excursions à Sainte-Marie.</p>
+  <div class="vehicle-gallery">
+    <article class="vehicle-card"><img src="images/Starex.jpg" alt="Véhicule Starex"><h3>Starex</h3></article>
+    <article class="vehicle-card"><img src="images/4%C3%974.jpg" alt="Véhicule 4×4"><h3>4×4</h3></article>
+    <article class="vehicle-card"><img src="images/Tuctuc.jpg" alt="Tuktuk"><h3>Tuktuk</h3></article>
+  </div>
+</section>
+
+<section id="clients" class="center">
+  <div class="kicker">Vos souvenirs, notre motivation</div>
+  <h2 class="section-title">Nos clients satisfaits</h2>
+  <p class="intro">Merci à tous nos clients pour leur confiance et pour ces beaux moments partagés à Sainte-Marie.</p>
+  <div class="photo-gallery">
+    <img src="images/C1.jpg" alt="Client satisfait 1"><img src="images/C2.jpg" alt="Client satisfait 2"><img src="images/C3.jpg" alt="Client satisfait 3"><img src="images/C4.jpg" alt="Client satisfait 4"><img src="images/C5.jpg" alt="Client satisfait 5"><img src="images/C6.jpg" alt="Client satisfait 6"><img src="images/C7.jpg" alt="Client satisfait 7"><img src="images/C8.jpg" alt="Client satisfait 8"><img src="images/C9.jpg" alt="Client satisfait 9"><img src="images/C10.jpg" alt="Client satisfait 10">
+  </div>
+</section>
+
 <section id="about"><div class="center"><div class="kicker" data-i="aboutKicker">Bienvenue à Sainte-Marie, Madagascar</div><h2 class="section-title" data-i="aboutTitle">Votre organisateur d’excursions à Sainte-Marie</h2><p class="intro" data-i="aboutText">Nah Ranaivo vous accompagne pour découvrir Sainte-Marie à Madagascar. Que vous souhaitiez visiter le Cimetière des Pirates, explorer l’Île aux Forbans ou profiter d’une découverte de l’île, préparez votre excursion avec un organisateur local. Contactez-nous pour organiser votre sortie et connaître les disponibilités.</p></div>
 <div class="gallery">
 <img src="images/ile-aux-forbans.jpg" alt="Île aux Forbans"><img src="images/piscine-naturelle.jpg" alt="Piscine naturelle"><img src="images/ile-aux-nattes.jpg" alt="Île aux Nattes"><img src="images/ilots-de-sable.jpg" alt="Îlots de sable"><img src="images/cascade-ankirihiry.jpg" alt="Cascade d’Ankirihiry">
@@ -121,28 +141,48 @@ footer{background:#064e54;color:#eafffc;padding:35px 24px;text-align:center;font
 <div><div class="kicker" data-i="contactKicker">Préparez votre séjour</div><h2 class="section-title" data-i="contactTitle">Réservez votre excursion</h2><p data-i="contactText">Envoyez votre demande. Nous vous répondrons pour confirmer les disponibilités et les détails de votre excursion.</p><p><strong>WhatsApp :</strong> +261 34 72 429 62</p><div class="contact-social"><a class="wa-link" href="https://wa.me/261347242962" target="_blank" rel="noopener">Contacter sur WhatsApp</a><a class="fb-link" href="https://www.facebook.com/share/1A8gjB9VMN/" target="_blank" rel="noopener">Facebook · Nah Ranaivo</a></div></div>
 <form class="form" id="bookingForm">
 <input id="name" required placeholder="Nom et prénom" data-ph="name">
-<div class="form-group"><strong>Excursions souhaitées (plusieurs choix possibles)</strong>
-<div class="choice-grid">
+<div class="form-group"><strong>Choisissez un axe</strong>
+<select id="axis" required>
+<option value="">-- Sélectionnez un axe --</option>
+<option value="nord">Axe Nord</option>
+<option value="sud">Axe Sud</option>
+<option value="sud-est">Axe Sud-Est</option>
+<option value="est">Axe Est</option>
+<option value="centre">Axe Centre</option>
+<option value="plage">Plage privée</option>
+</select>
+<div id="axis-nord" class="axis-options" hidden><strong>Axe Nord – Choisissez vos excursions</strong><div class="choice-grid">
 <label><input type="checkbox" name="tour" value="Cascade d’Ankirihiry"> Cascade d’Ankirihiry</label>
 <label><input type="checkbox" name="tour" value="Port Loukintsy"> Port Loukintsy</label>
 <label><input type="checkbox" name="tour" value="Piscine naturelle"> Piscine naturelle</label>
+</div></div>
+<div id="axis-sud" class="axis-options" hidden><strong>Axe Sud – Choisissez vos excursions</strong><div class="choice-grid">
 <label><input type="checkbox" name="tour" value="Île aux Nattes"> Île aux Nattes</label>
 <label><input type="checkbox" name="tour" value="Maison Blanche"> Maison Blanche</label>
+</div></div>
+<div id="axis-sud-est" class="axis-options" hidden><strong>Axe Sud-Est – Choisissez vos excursions</strong><div class="choice-grid">
 <label><input type="checkbox" name="tour" value="Îlots de sable"> Îlots de sable</label>
 <label><input type="checkbox" name="tour" value="Tour de l’Île aux Nattes"> Tour de l’Île aux Nattes</label>
+</div></div>
+<div id="axis-est" class="axis-options" hidden><strong>Axe Est – Choisissez vos excursions</strong><div class="choice-grid">
 <label><input type="checkbox" name="tour" value="Baie d’Ampanihy"> Baie d’Ampanihy</label>
 <label><input type="checkbox" name="tour" value="Canal de mangrove"> Canal de mangrove</label>
 <label><input type="checkbox" name="tour" value="Forêt d’Ampanihy"> Forêt d’Ampanihy</label>
 <label><input type="checkbox" name="tour" value="Plage de l’Est"> Plage de l’Est</label>
+</div></div>
+<div id="axis-centre" class="axis-options" hidden><strong>Axe Centre – Choisissez vos excursions</strong><div class="choice-grid">
 <label><input type="checkbox" name="tour" value="Première église catholique de Madagascar"> Première église catholique de Madagascar</label>
 <label><input type="checkbox" name="tour" value="Cimetière des Pirates"> Cimetière des Pirates</label>
 <label><input type="checkbox" name="tour" value="Île aux Forbans"> Île aux Forbans</label>
 <label><input type="checkbox" name="tour" value="Île au Madame"> Île au Madame</label>
 <label><input type="checkbox" name="tour" value="Tour de ville"> Tour de ville</label>
+</div></div>
+<div id="axis-plage" class="axis-options" hidden><strong>Plage privée – Choisissez vos activités</strong><div class="choice-grid">
 <label><input type="checkbox" name="tour" value="Snorkeling"> Snorkeling</label>
 <label><input type="checkbox" name="tour" value="Kayak"> Kayak</label>
-<label><input type="checkbox" name="tour" value="Plage privée"> Plage privée</label>
+<label><input type="checkbox" name="tour" value="Plage privée"> Plage</label>
 </div></div>
+</div>
 <div class="form-group"><strong>Dates du séjour</strong><label for="arrival">Date d’arrivée</label><input id="arrival" type="date" required><label for="departure">Date de départ</label><input id="departure" type="date" required></div>
 <input id="hotel" required placeholder="Nom de l’hôtel / hébergement">
 <div class="form-group"><strong>Transfert à l’arrivée</strong><select id="transfer" required><option value="Non">Non</option><option value="Oui">Oui</option></select>
@@ -166,8 +206,8 @@ mg:{navHome:"Fandraisana",navTours:"Fitsangatsanganana",navTransport:"Fitaterana
 function setLang(l){document.documentElement.lang=l;document.querySelectorAll("[data-i]").forEach(e=>{let k=e.dataset.i;if(copy[l][k])e.textContent=copy[l][k]});document.querySelectorAll("[data-ph]").forEach(e=>{let k=e.dataset.ph;e.placeholder=copy[l][k]||""})}
 document.getElementById("lang").addEventListener("change",e=>setLang(e.target.value));
 document.getElementById("year").textContent=new Date().getFullYear();
+document.getElementById("axis").addEventListener("change",e=>{document.querySelectorAll(".axis-options").forEach(panel=>{panel.hidden=panel.id!=="axis-"+e.target.value;});document.querySelectorAll('input[name="tour"]').forEach(box=>box.checked=false);});
 document.getElementById("transfer").addEventListener("change",e=>{const details=document.getElementById("transferDetails");details.hidden=e.target.value!=="Oui";document.getElementById("destination").required=e.target.value==="Oui";});
-document.getElementById("bookingForm").addEventListener("submit",e=>{e.preventDefault();const selected=[...document.querySelectorAll('input[name="tour"]:checked')].map(x=>x.value);if(!selected.length){alert("Veuillez choisir au moins une excursion.");return;}const adults=Number(document.getElementById("adults").value),children=Number(document.getElementById("children").value),foreigners=Number(document.getElementById("foreigners").value),malagasy=Number(document.getElementById("malagasy").value);if(adults+children!==foreigners+malagasy){alert("Le total adultes + enfants doit être égal au total étrangers + malgaches.");return;}if(document.getElementById("departure").value<document.getElementById("arrival").value){alert("La date de départ doit être après la date d’arrivée.");return;}const transfer=document.getElementById("transfer").value;const fields=["Bonjour Nah Ranaivo ! Je souhaite réserver une excursion à Sainte-Marie.","Nom et prénom : "+document.getElementById("name").value,"Excursions souhaitées : "+selected.join(", "),"Séjour : du "+document.getElementById("arrival").value+" au "+document.getElementById("departure").value,"Hôtel / hébergement : "+document.getElementById("hotel").value,"Transfert à l’arrivée : "+transfer+(transfer==="Oui"?" ; prise en charge : "+document.getElementById("pickup").value+" ; destination : "+document.getElementById("destination").value:""),"Adultes : "+adults,"Enfants de moins de 5 ans : "+children,"Étrangers : "+foreigners,"Malgaches : "+malagasy,"Total participants : "+(adults+children),"Transport souhaité : "+document.getElementById("transport").value,"Message : "+document.getElementById("message").value,"Merci de me communiquer vos disponibilités et tarifs."];const url="https://wa.me/261347242962?text="+encodeURIComponent(fields.join("
-"));window.open(url,"_blank","noopener")});
+document.getElementById("bookingForm").addEventListener("submit",e=>{e.preventDefault();const selected=[...document.querySelectorAll('input[name="tour"]:checked')].map(x=>x.value);if(!document.getElementById("axis").value){alert("Veuillez choisir un axe.");return;}if(!selected.length){alert("Veuillez choisir au moins une excursion.");return;}const adults=Number(document.getElementById("adults").value),children=Number(document.getElementById("children").value),foreigners=Number(document.getElementById("foreigners").value),malagasy=Number(document.getElementById("malagasy").value);if(adults+children!==foreigners+malagasy){alert("Le total adultes + enfants doit être égal au total étrangers + malgaches.");return;}if(document.getElementById("departure").value<document.getElementById("arrival").value){alert("La date de départ doit être après la date d’arrivée.");return;}const transfer=document.getElementById("transfer").value;const fields=["Bonjour Nah Ranaivo ! Je souhaite réserver une excursion à Sainte-Marie.","Nom et prénom : "+document.getElementById("name").value,"Axe choisi : "+document.getElementById("axis").selectedOptions[0].text,"Excursions souhaitées : "+selected.join(", "),"Séjour : du "+document.getElementById("arrival").value+" au "+document.getElementById("departure").value,"Hôtel / hébergement : "+document.getElementById("hotel").value,"Transfert à l’arrivée : "+transfer+(transfer==="Oui"?" ; prise en charge : "+document.getElementById("pickup").value+" ; destination : "+document.getElementById("destination").value:""),"Adultes : "+adults,"Enfants de moins de 5 ans : "+children,"Étrangers : "+foreigners,"Malgaches : "+malagasy,"Total participants : "+(adults+children),"Transport souhaité : "+document.getElementById("transport").value,"Message : "+document.getElementById("message").value,"Merci de me communiquer vos disponibilités et tarifs."];const url="https://wa.me/261347242962?text="+encodeURIComponent(fields.join("\n"));window.open(url,"_blank","noopener")});
 </script>
 </body></html>
